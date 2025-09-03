@@ -1,22 +1,22 @@
 // === Basic site customization ===
 // Change these values to personalize your site.
 const SITE = {
-  name: "Your Name",
+  name: "Aran",
   role: "Web Developer",
-  email: "you@example.com",
+  email: "aranozley@gmail.com",
   socials: {
-    github: "https://github.com/youruser",
-    linkedin: "https://www.linkedin.com/in/youruser/"
+    github: "https://github.com/Aran-Oz",
+    linkedin: "https://www.linkedin.com/in/aran-ozley/"
   }
 };
 
 // Add your projects here. Duplicate to add more.
 const PROJECTS = [
   {
-    title: "Project One",
-    description: "Short description of what it is and what you did.",
+    title: "WPA3/2 Exploitation & Demo",
+    description: "Discussed and demonstrated vulnerabilities within WPA3 and WPA2",
     image: "assets/project-1.svg",
-    tags: ["HTML","CSS","JavaScript"],
+    tags: ["Kali","Networking","Deauthentication"],
     links: {
       live: "#",
       source: "#"
