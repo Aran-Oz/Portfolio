@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Portfolio of Your Name — role or headline." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Your Name — Portfolio" />
+  <meta property="og:description" content="Portfolio of Your Name — role or headline." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home">Your Name</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero container">
+      <p class="eyebrow">👋 Hello</p>
+      <h1>I'm <span class="accent">Your Name</span></h1>
+      <p class="tagline">I build clean, fast, accessible experiences for the web.</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">View my work</a>
+        <a class="btn" href="mailto:you@example.com?subject=Let's%20work%20together">Email me</a>
+      </div>
+      <div class="meta">
+        <a href="#" id="social-github" aria-label="GitHub">GitHub</a>
+        <span>·</span>
+        <a href="#" id="social-linkedin" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2>Projects</h2>
+      <p class="section-subtitle">A few things I'm proud of.</p>
+      <div id="projects-grid" class="grid"></div>
+    </section>
+
+    <section id="about" class="section container">
+      <h2>About</h2>
+      <div class="about">
+        <img class="avatar" src="assets/avatar.svg" alt="Avatar placeholder" width="160" height="160" />
+        <div>
+          <p>Write a short, friendly bio here: who you are, what you do, and what you enjoy building. Mention a few skills and the type of work you're looking for.</p>
+          <ul class="skills" aria-label="Skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Accessibility</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2>Contact</h2>
+      <p>Interested in working together or have a question?</p>
+      <a class="btn primary" href="mailto:you@example.com?subject=Hello%20from%20your%20portfolio">Email me</a>
+      <p class="contact-alt">Or reach me on <a href="#" id="contact-linkedin">LinkedIn</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>&copy; <span id="year"></span> Your Name. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Your Name",
+    "url": "",
+    "sameAs": []
+  }
+  </script>
+</body>
+</html>
