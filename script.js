@@ -18,8 +18,7 @@ const PROJECTS = [
     image: "assets/Project 1.jpg",
     tags: ["Kali","Networking","Deauthentication"],
     links: {
-      live: "#",
-      source: "#"
+      Demo: "https://drive.google.com/drive/folders/1PkPcaS8SBfOQMBGhUB6J2JG6Y0QCx0TO?usp=sharing",
     }
   },
   {
@@ -28,8 +27,7 @@ const PROJECTS = [
     image: "assets/Project 2.jpg",
     tags: ["HTML","CSS","JavaScript"],
     links: {
-      live: "#",
-      source: "#"
+      source: "https://github.com/Aran-Oz/Portfolio",
     }
   },
   {
@@ -38,8 +36,7 @@ const PROJECTS = [
     image: "assets/Project 3.jpg",
     tags: ["Bug Bounty","BurpSuit","Exploit","Vulnerability"],
     links: {
-      live: "#",
-      source: "#"
+      live: "https://drive.google.com/file/d/1aWUNr__3fdxcyESqDm7SDL65ll67Ro9v/view?usp=drive_link",
     }
   }
 ];
