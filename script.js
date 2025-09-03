@@ -2,7 +2,7 @@
 // Change these values to personalize your site.
 const SITE = {
   name: "Aran",
-  role: "Web Developer",
+  role: "Bug Bounty Hunter",
   email: "aranozley@gmail.com",
   socials: {
     github: "https://github.com/Aran-Oz",
@@ -35,8 +35,8 @@ const PROJECTS = [
   {
     title: "Bug Bounty Exploration",
     description: "Utilise BurpSuite to manipulate BWAPP docker container",
-    image: "assets/Project 2.jpg",
-    tags: ["Bug Bounty","BurpSuit","Exploit","Vulerability"],
+    image: "assets/Project 3.jpg",
+    tags: ["Bug Bounty","BurpSuit","Exploit","Vulnerability"],
     links: {
       live: "#",
       source: "#"
