@@ -15,7 +15,7 @@ const PROJECTS = [
   {
     title: "WPA3/2 Exploitation & Demo",
     description: "Discussed and demonstrated vulnerabilities within WPA3 and WPA2",
-    image: "assets/project-1.svg",
+    image: "assets/Project 1.jpg",
     tags: ["Kali","Networking","Deauthentication"],
     links: {
       live: "#",
@@ -23,20 +23,20 @@ const PROJECTS = [
     }
   },
   {
-    title: "Project Two",
-    description: "Another cool project—keep the text concise.",
-    image: "assets/project-2.svg",
-    tags: ["API","Accessibility"],
+    title: "GitHub - Website Creation",
+    description: "Using Github to store this very webpage",
+    image: "assets/Project 2.jpg",
+    tags: ["HTML","CSS","JavaScript"],
     links: {
       live: "#",
       source: "#"
     }
   },
   {
-    title: "Project Three",
-    description: "Show impact: performance boost, users, or learning.",
-    image: "assets/project-3.svg",
-    tags: ["Performance","UX"],
+    title: "Bug Bounty Exploration",
+    description: "Utilise BurpSuite to manipulate BWAPP docker container",
+    image: "assets/Project 2.jpg",
+    tags: ["Bug Bounty","BurpSuit","Exploit","Vulerability"],
     links: {
       live: "#",
       source: "#"
